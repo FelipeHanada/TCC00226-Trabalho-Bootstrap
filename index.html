@@ -23,13 +23,15 @@
             <div class="dropdown">
                 <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    Dropdown link
+                    <i class="fa-solid fa-list-ul"></i>
                 </a>
 
                 <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-house me-2"></i>Página Principal</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-magnifying-glass me-2"></i>Pesquisar Receitas</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-star me-2"></i>Favoritos</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user me-2"></i>Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-right-from-bracket me-2"></i>Sair</a></li>
                 </ul>
             </div>
         </div>
@@ -53,22 +55,22 @@
             <div class="carousel-item active">
                 <img src="assets/images/slide1.png" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Café da Manhã Feliz?</h5>
+                    <p>Acorde todas as manhãs com uma boa receita de salada de frutas!</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/images/slide2.png" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Jantar à luz de velas?</h5>
+                    <p>Que tal surpreender quem é especial para você com uma boa receita de Fettuccine Alfredo?</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="assets/images/slide3.png" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Nada melhor em uma tarde do que uma sopa...</h5>
+                    <p>Experimente esta receita de sopa cremosa de abóbora com um toque de gengibre. Perfeita para aquecer as tardes mais frias!</p>
                 </div>
             </div>
         </div>
@@ -93,12 +95,16 @@
 
         <div class="row">
             <div class="col-lg-9 mb-3">
-                <div class="border px-4 py-3 m-6">
+                <div class="border px-4 py-3 mb-5">
                     <h1>Receita Completa de Torta de Morango</h1>
 
                     <div class="d-flex justify-content-between">
                         <p>Marcos Antónitos</p>
-                        <p>Postado em 01/04/2025 às 20:33</p>
+                        <p>Publicado em 01/04/2025 às 20:33</p>
+                    </div>
+
+                    <div class="d-flex justify-content-center mb-3">
+                        <img src="assets/images/tortamorango.png" class="img-fluid rounded border" style="height: 240px; width: 360px; overflow: hidden;" alt="Torta de Morango">
                     </div>
 
                     <p class="text-justify">
@@ -196,13 +202,381 @@
                         torta de morango deliciosa que com certeza fará sucesso!
                     </p>
                 </div>
+
+                <div class="border px-4 py-3">
+                    <h1 class="mb-3">Comentários</h1>
+
+                    <div> <!-- Seção de Comentários -->
+                        <div> <!-- Comentário -->
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <div>
+                                    <img class="comment-icon" src="assets/images/banana.jpg">
+                                    <span class="ms-2">Camila Dias</span>
+                                    <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-4">
+                                    <div class="d-flex justify-content-end gap-3">
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                                <span>Gostei</span>
+                                                <span class="like-counter">0</span>
+                                            </button>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Amei</span>
+                                                <span class="love-counter">0</span>
+                                            </button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dropdown dropend">
+                                        <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                            <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                        </span>
+                        
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="mb-2">
+                                    <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                        certeza farei de novo!"</p>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="border-start ps-4"> <!-- Comentários do Post -->
+                                <div> <!-- Comentário -->
+                                    <div class="d-flex justify-content-between align-items-center mb-1">
+                                        <div>
+                                            <img class="comment-icon" src="assets/images/banana.jpg">
+                                            <span class="ms-2">Camila Dias</span>
+                                            <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                        </div>
+        
+                                        <div class="d-flex align-items-center gap-4">
+                                            <div class="d-flex justify-content-end gap-3">
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                        <i class="fa-regular fa-thumbs-up"></i>
+                                                        <span>Gostei</span>
+                                                        <span class="like-counter">0</span>
+                                                    </button>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <span>Amei</span>
+                                                        <span class="love-counter">0</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+            
+                                            <div class="dropdown dropend">
+                                                <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                                    <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                                </span>
+                                
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="mb-3">
+                                        <div class="mb-2">
+                                            <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                                certeza farei de novo!"</p>
+                                        </div>
+        
+                                        
+                                    </div>
+        
+                                    <div class="border-start ps-4"> <!-- Comentários do Post -->
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div> <!-- Comentário -->
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <div>
+                                    <img class="comment-icon" src="assets/images/banana.jpg">
+                                    <span class="ms-2">Camila Dias</span>
+                                    <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-4">
+                                    <div class="d-flex justify-content-end gap-3">
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                                <span>Gostei</span>
+                                                <span class="like-counter">0</span>
+                                            </button>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Amei</span>
+                                                <span class="love-counter">0</span>
+                                            </button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dropdown dropend">
+                                        <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                            <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                        </span>
+                        
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="mb-2">
+                                    <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                        certeza farei de novo!"</p>
+                                </div>
+                            </div>
+
+                            <div class="border-start ps-4"> <!-- Comentários do Post -->
+                                <div> <!-- Comentário -->
+                                    <div class="d-flex justify-content-between align-items-center mb-1">
+                                        <div>
+                                            <img class="comment-icon" src="assets/images/banana.jpg">
+                                            <span class="ms-2">Camila Dias</span>
+                                            <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                        </div>
+        
+                                        <div class="d-flex align-items-center gap-4">
+                                            <div class="d-flex justify-content-end gap-3">
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                        <i class="fa-regular fa-thumbs-up"></i>
+                                                        <span>Gostei</span>
+                                                        <span class="like-counter">0</span>
+                                                    </button>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <span>Amei</span>
+                                                        <span class="love-counter">0</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+            
+                                            <div class="dropdown dropend">
+                                                <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                                    <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                                </span>
+                                
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="mb-3">
+                                        <div class="mb-2">
+                                            <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                                certeza farei de novo!"</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="border-start ps-4"> <!-- Comentários do Post -->
+                                        <div> <!-- Comentário -->
+                                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                                <div>
+                                                    <img class="comment-icon" src="assets/images/banana.jpg">
+                                                    <span class="ms-2">Camila Dias</span>
+                                                    <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                                </div>
+                
+                                                <div class="d-flex align-items-center gap-4">
+                                                    <div class="d-flex justify-content-end gap-3">
+                                                        <div class="d-flex align-items-center">
+                                                            <button type="button"
+                                                                class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                                <i class="fa-regular fa-thumbs-up"></i>
+                                                                <span>Gostei</span>
+                                                                <span class="like-counter">0</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <button type="button"
+                                                                class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                                <i class="fa-regular fa-heart"></i>
+                                                                <span>Amei</span>
+                                                                <span class="love-counter">0</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="dropdown dropend">
+                                                        <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                                            <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                                        </span>
+                                        
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                
+                                            <div class="mb-3">
+                                                <div class="mb-2">
+                                                    <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                                        certeza farei de novo!"</p>
+                                                </div>
+                                            </div>
+                
+                                            <div class="border-start ps-4"> <!-- Comentários do Post -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div> <!-- Comentário -->
+                                    <div class="d-flex justify-content-between align-items-center mb-1">
+                                        <div>
+                                            <img class="comment-icon" src="assets/images/banana.jpg">
+                                            <span class="ms-2">Camila Dias</span>
+                                            <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                        </div>
+        
+                                        <div class="d-flex align-items-center gap-4">
+                                            <div class="d-flex justify-content-end gap-3">
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                        <i class="fa-regular fa-thumbs-up"></i>
+                                                        <span>Gostei</span>
+                                                        <span class="like-counter">0</span>
+                                                    </button>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <button type="button"
+                                                        class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <span>Amei</span>
+                                                        <span class="love-counter">0</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+            
+                                            <div class="dropdown dropend">
+                                                <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                                    <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                                </span>
+                                
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                    <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="mb-3">
+                                        <div class="mb-2">
+                                            <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                                certeza farei de novo!"</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="border-start ps-4"> <!-- Comentários do Post -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div> <!-- Comentário -->
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <div>
+                                    <img class="comment-icon" src="assets/images/banana.jpg">
+                                    <span class="ms-2">Camila Dias</span>
+                                    <span class="ms-2">Publicado em 10/04/2025 às 23:12</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-4">
+                                    <div class="d-flex justify-content-end gap-3">
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-primary btn-sm d-flex align-items-center gap-2 like-btn">
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                                <span>Gostei</span>
+                                                <span class="like-counter">0</span>
+                                            </button>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <button type="button"
+                                                class="btn btn-outline-danger btn-sm d-flex align-items-center gap-2 love-btn">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <span>Amei</span>
+                                                <span class="love-counter">0</span>
+                                            </button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dropdown dropend">
+                                        <span class="d-flex justify-content-center align-items-center" role="button" data-bs-toggle="dropdown">
+                                            <i class="fa-solid fa-ellipsis-vertical" style="font-size: 16px;"></i>
+                                        </span>
+                        
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li><a class="dropdown-item" href="#">Reportar usuário</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="mb-2">
+                                    <p class="mb-2">"Nunca pensei que fosse tão fácil fazer uma torta de morango. Com
+                                        certeza farei de novo!"</p>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="border-start ps-4"> <!-- Comentários do Post -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-lg-3 px-3 mb-3">
                 <div class="row">
                     <div class="col-sm-6 col-lg-12">
-                        <div class="card m-2 mt-0">
-                            <img src="assets/images/banana.jpg" class="card-img-top">
+                        <div class="card m-2">
+                            <img src="assets/images/bolodechocolate.png" class="card-img-top">
 
                             <div class="card-body">
                                 <h5 class="card-title">Bolo de Chocolate Cremoso</h5>
@@ -216,8 +590,8 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-12">
-                        <div class="card m-2 mt-0">
-                            <img src="assets/images/banana.jpg" class="card-img-top">
+                        <div class="card m-2">
+                            <img src="assets/images/pudim.png" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Pudim de Leite Condensado Perfeito</h5>
                                 <p class="card-text text-justify">O clássico pudim lisinho e sem furinhos, com uma calda
@@ -228,8 +602,8 @@
                     </div>
 
                     <div class="col-sm-6 col-lg-12">
-                        <div class="card m-2 mt-0">
-                            <img src="assets/images/banana.jpg" class="card-img-top">
+                        <div class="card m-2">
+                            <img src="assets/images/cookie.png" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Cookies Crocantes por Fora e Macios por Dentro</h5>
                                 <p class="card-text text-justify">A receita definitiva para cookies que derretem na
@@ -239,12 +613,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-3">
-
             </div>
         </div>
     </div>
