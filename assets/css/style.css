@@ -25,6 +25,122 @@
     border: 1px solid #ccc;
 }
 
+.footer-container {
+    background-color: #eee;
+}
+
+.contacts-container ul {
+    width: 40%;
+}
+
+.contacts-container ul li {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-container ul li a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-container i {
+    font-size: 1.5rem;
+}
+
+.contacts-container ul li a {
+    transition: all 0.3s ease-in-out;
+}
+
+.contacts-container ul li:nth-child(1) a:hover {
+    background-color: #25D366;
+}
+
+.contacts-container ul li:nth-child(2) a:hover {
+    background-color: #FF0000;
+}
+
+.contacts-container ul li:nth-child(3) a:hover {
+    background-color: #E1306C;
+}
+
+.contacts-container ul li:nth-child(4) a:hover {
+    background-color: #1877F2;
+}
+
+.contacts-container ul li:nth-child(5) a:hover {
+    background-color: #000000;
+}
+
+.contacts-container ul li:nth-child(6) a:hover {
+    background-color: #E60023;
+}
+
+.contacts-container ul li:nth-child(7) a:hover {
+    background-color: #1DA1F2;
+}
+
+.contacts-container ul li:nth-child(8) a:hover {
+    background-color: #FFFC00;
+}
+
+.text-divisor {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.text-divisor::before,
+.text-divisor::after {
+    content: "";
+    display: block;
+    width: 30%;
+    top: 20px;
+    border-radius: 10px;
+    left: 0px;
+    height: 1px;
+    background-color: rgba(153, 153, 153, 0.7);
+    margin: 0px 15px;
+}
+
+.uff-logo {
+    width: 100%;
+}
+
+.fruit-footer-icon {
+    width: 100%;
+
+    &:hover {
+        animation: shake 0.5s;
+        cursor: pointer;
+    }
+}
+
+.anchor-fruit-footer-icon {
+    display: inline-flex;
+}
+
+.anchor-fruit-footer-icon {
+    width: clamp(50px, 5%, 100px);
+}
+
+.uff-logo-anchor {
+    width: clamp(150px, 10%, 220px);
+}
+
 @keyframes shake {
     0% { transform: translateX(0); }
     25% { transform: translateX(-5px); }
