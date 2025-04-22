@@ -74,10 +74,13 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contacts-container ul li a i {
+    aspect-ratio: 1 / 1;
 }
 
 .contacts-container i {
@@ -189,6 +192,32 @@
 
 .uff-logo-anchor {
     width: clamp(150px, 10%, 220px);
+}
+
+.footer-ul li {
+    text-align: center;
+}
+
+.profile-button i {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: inset 0px 0px 0px 2px transparent;
+
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        background-color: #fff;
+        color: #333;
+        box-shadow: inset 0px 0px 0px 2px #333;
+    }
 }
 
 @keyframes shake {
