@@ -219,6 +219,16 @@
     justify-content: center;
 }
 
+.category-card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.recipe-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
 @keyframes shake {
     0% { transform: translateX(0); }
     25% { transform: translateX(-5px); }
